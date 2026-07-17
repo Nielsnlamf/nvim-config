@@ -10,7 +10,8 @@ opt.formatoptions:remove({ "o" })
 vim.g.mapleader = " "
 
 -- Hint: use `:h <option>` to figure out the meaning if needed
-opt.clipboard = 'unnamedplus'   -- use system clipboard 
+-- opt.clipboard = 'unnamedplus'   -- use system clipboard 
+opt.clipboard = ""                 -- Use vim registries
 opt.completeopt = {'menu', 'menuone', 'noselect'}
 opt.mouse = 'a'                 -- allow the mouse to be used in nvim
 

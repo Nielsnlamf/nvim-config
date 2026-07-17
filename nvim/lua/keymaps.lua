@@ -51,11 +51,11 @@ map("i", "<C-BS>", "<C-w>")
 
 -- Don't copy deleted lines/text to clipboard
 -- Normal mode
-map("n", "dd", '"_dd')
-map("n", "D", '"_D')
-map("n", "x", '"_x')
-map("n", "X", '"_X')
+-- map("n", "dd", '"_dd')
+-- map("n", "D", '"_D')
+-- map("n", "x", '"_x')
+-- map("n", "X", '"_X')
 
 -- Visual mode
-map("v", "d", '"_d')
-map("v", "x", '"_x')
+-- map("v", "d", '"_d')
+-- map("v", "x", '"_x')
